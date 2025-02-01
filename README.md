@@ -2,7 +2,7 @@
 # MScThesis-EarlyDementiaDetection
 
 ## About
-This repository contains the code for my MSc thesis, titled  **AI-Driven Multimodal Approach for Early Detection and Prevention of Dementia**. This study leverages the Aiginition Longitudinal Biomarker Investigation of Neurodegeneration (ALBION) dataset and focuses on the early detection of dementia (MCI) and deepen our understanding of the risk factors involved. We proposed two approaches for early dementia detection: 
+This repository contains the code for my MSc thesis, titled  **AI-Driven Multimodal Approach for Early Detection and Prevention of Dementia**. This study leverages the Aiginition Longitudinal Biomarker Investigation of Neurodegeneration (ALBION) dataset and focuses on the early detection of dementia (MCI) and deepens our understanding of the risk factors involved. We proposed two approaches for early dementia detection: 
 
 1. **Always-Measured Model** – The Always-Measured Model is a straightforward approach designed to leverage features consistently recorded across all visits.
 2. **Voting-Based Hybrid Model** – The Voting-Based Hybrid model is a more sophisticated approach that leverages the unique characteristics of each visit recorded in the dataset. By training separate models on combinations of sequential visits and aggregating their outputs through a majority voting mechanism, it systematically evaluates the predictive value of adding longitudinal data while capturing complementary information from multiple visits.
